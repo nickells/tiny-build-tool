@@ -1,0 +1,16 @@
+{
+  "name": "tiny-build-tool",
+  "version": "1.0.0",
+  "description": "For server-side templating",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "cheerio": "^0.20.0",
+    "tiny-interpolator": "^1.0.2"
+  }
+}
