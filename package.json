@@ -1,6 +1,6 @@
 {
   "name": "tiny-build-tool",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "For server-side templating",
   "main": "index.js",
   "scripts": {
