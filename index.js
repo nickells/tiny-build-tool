@@ -19,7 +19,7 @@ function makeFile(options){
     template: readFile(options.templatePath,'utf8'),
     content: readFile(options.contentPath, 'utf8'),
     documentPath: readFile(options.documentPath, 'utf8'),
-    outputPath: options.outputPath ? options.outputPath : options.templatePath
+    outputPath: options.outputPath ? options.outputPath : options.documentPath
   })
   .then(data=>{
     const { template, content, documentPath, outputPath } = data
